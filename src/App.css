@@ -5,24 +5,47 @@
 
 header {
     background-color: #ff6341;
-    padding: 40px;
+    padding: 40px 0px 20px 0px;
     color: #384f85;
     font-size: 30px;
+    width: 100%;
 }
+
+.navLinks{
+padding: 0px 5px;
+background-color: #ff6341;
+color: #e1da66;
+}
+
 
 h1 {
     background-color: #e1da66;
+    padding: 0 5px;
+    width: 45%
 }
 
-h2 {
-text-align: center;
-font-size: 300%;
-font-style:italic;
-color: #384f85;
-}
+
+/* ABOUT PAGE  */
+.aboutPic {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    padding: 20px 0px 20px 0px;
+ }
+
+ .aboutMe {
+    color: #384f85;
+    padding: 0% 20% 0% 20%;
+    font-size: 20px;
+    text-align: justify;
+ }
 
 h3 {
     text-align: center;
+    color: #e1da66;
+    font-style: italic;
+    font-size: 50px;
+    margin: 0px;
 }
 
 nav {
@@ -33,44 +56,59 @@ nav {
     font-size: 20px;
 }
 
+/* PORTFOLIO PAGE */
 
 .pGroup {
  display: flex;
  flex-wrap: wrap;
  justify-content: space-evenly;
+
 }
 
-.portfolioPics {
-    height: 50%;
+.pGroup a {
     width: 50%;
 }
 
-.aboutPic {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 300px;
-    /* border-radius: 20px; */
+.portfolioPics {
+    height: 100%;
+    width: 100%;
 }
 
+
+/* CONTACT PAGE */
+h2 {
+    text-align: center;
+    font-size: 300%;
+    font-style:italic;
+    color: #384f85;
+    }
+
+
+
+/* FOOTER */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #ff6341;
 }
 
 ul {
     display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: space-around;
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: space-evenly;
     color: #ffffff;
-    padding: 0;
+    padding: 25px 0px 5px 0px;
     margin: 0;
-    background-color: #ff6341;
+    background-color: #ffffff;
 }
 
 ul li {
- background-color: #ff6341;
+ background-color: #ffffff;
+ width: 5px;
+}
+
+.footerIcon {
+    max-width: 35px; 
+    height: auto;
+    margin-right: 10px;
 }

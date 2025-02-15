@@ -6,13 +6,13 @@ function Header() {
       <header>
      <h1>Jazmin Guillen</h1>
      <nav>
-    <NavLink to="/">About</NavLink>
+    <NavLink className={"navLinks"} to="/">About</NavLink>
 
-    <NavLink to="/portfolio">Portfolio</NavLink>
+    <NavLink className={"navLinks"} to="/portfolio">Portfolio</NavLink>
 
-    <NavLink to="/contactpage">Contact</NavLink>
+    <NavLink className={"navLinks"} to="/contactpage">Contact</NavLink>
 
-    <NavLink to="/resumepage">Resume</NavLink>
+    <NavLink className={"navLinks"} to="/resumepage">Resume</NavLink>
      </nav>
       </header>
     )
